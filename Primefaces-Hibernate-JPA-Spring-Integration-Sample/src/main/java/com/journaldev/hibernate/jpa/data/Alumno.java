@@ -10,7 +10,7 @@ import java.util.Date;
  * The persistent class for the ALUMNOS database table.
  * 
  */
-@Entity
+@Entity 
 @Table(name="ALUMNOS")
 @NamedQuery(name="Alumno.findAll", query="SELECT a FROM Alumno a")
 public class Alumno implements Serializable {
